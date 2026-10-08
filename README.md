@@ -2,7 +2,11 @@
 
 Minimal static landing page for JHM Lee Labs, an independent applied-AI lab / studio.
 
-Live site: <https://jhm-lee-labs.pages.dev>
+Primary site: <https://jhmlee.com>
+
+Fallback site: <https://jhm-lee-labs.pages.dev>
+
+Active mailbox (iCloud-backed): <jin-ho.lee@jhmlee.com>
 
 ## Local preview
 
@@ -25,11 +29,9 @@ npx wrangler pages deploy . --project-name <project-name> --branch main
 
 With Wrangler 4.148.0, `--force` is needed only when creating the Pages project to bypass the Workers delegation; do not pass it on later deploys. The `main` branch produces the project’s production `pages.dev` address. There is no build command and no framework adapter to configure.
 
-## Future domain and email
+## Domain and email
 
-When `jhmlee.com` is registered and its DNS is available, attach it to this Pages project through Cloudflare Pages' custom-domain flow. Do not change billing or register a domain as part of this site repository.
-
-Email routing is a separate Cloudflare DNS/domain step and depends on the domain existing first. It is intentionally not configured here; add routes only after the domain purchase and email-routing approval.
+The primary domain is `jhmlee.com`; the Pages address remains available as a fallback. The active mailbox is the iCloud-backed `jin-ho.lee@jhmlee.com`. Domain, DNS, Cloudflare, and account settings are managed outside this repository.
 
 ## Scope and privacy
 
