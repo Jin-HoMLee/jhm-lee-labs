@@ -27,7 +27,7 @@ With Wrangler 4.148.0, `--force` is needed only when creating the Pages project 
 
 ## Future domain and email
 
-When `jhmleelabs.com` is registered and its DNS is available, attach it to this Pages project through Cloudflare Pages' custom-domain flow. Do not change billing or register a domain as part of this site repository.
+When `jhmlee.com` is registered and its DNS is available, attach it to this Pages project through Cloudflare Pages' custom-domain flow. Do not change billing or register a domain as part of this site repository.
 
 Email routing is a separate Cloudflare DNS/domain step and depends on the domain existing first. It is intentionally not configured here; add routes only after the domain purchase and email-routing approval.
 
