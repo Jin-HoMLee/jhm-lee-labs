@@ -1,13 +1,9 @@
-<svg xmlns="http://www.w3.org/2000/svg" viewBox="0 0 96 64" width="96" height="64" fill="none" role="img" aria-labelledby="title desc">
+<svg xmlns="http://www.w3.org/2000/svg" viewBox="0 0 64 64" width="64" height="64" fill="none" role="img" aria-labelledby="title desc">
   <title id="title">Splice junction mark</title>
-  <desc id="desc">Two exon strands meet at a central splice break above an excised intron arc.</desc>
-  <g stroke="#c8f04a" stroke-width="4" stroke-linecap="round" stroke-linejoin="round">
-    <path d="M8 18c12-7 24-7 35 1l5 4" />
-    <path d="M8 34c12 7 24 7 35-1l5-4" />
-    <path d="M48 23l5-4c11-8 23-8 35-1" />
-    <path d="M48 29l5 4c11 8 23 8 35 1" />
-  </g>
-  <path d="M48 20v12" stroke="#0a0e11" stroke-width="3" stroke-linecap="round" />
-  <path d="M20 42q28 24 56 0" stroke="#2f5146" stroke-width="3" stroke-linecap="round" stroke-dasharray="3 5" />
-  <circle cx="48" cy="26" r="2.5" fill="#c8f04a" />
+  <desc id="desc">Two lime exon strands meet at a central splice junction above a dashed excised-intron arc.</desc>
+  <rect x="1" y="1" width="62" height="62" rx="12" fill="#ffffff" stroke="#0a0e11" stroke-opacity="0.18" stroke-width="2"/>
+  <rect x="9" y="22" width="17" height="13" rx="4" fill="#c8f04a" stroke="#0a0e11" stroke-opacity="0.15" stroke-width="1.5"/>
+  <rect x="38" y="22" width="17" height="13" rx="4" fill="#c8f04a" stroke="#0a0e11" stroke-opacity="0.15" stroke-width="1.5"/>
+  <circle cx="32" cy="28.5" r="3.2" fill="#2f5146"/>
+  <path d="M21 41c0 9 22 9 22 0" stroke="#2f5146" stroke-width="2.5" stroke-dasharray="4 3" stroke-linecap="round"/>
 </svg>

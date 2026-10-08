@@ -178,9 +178,9 @@ h2 { margin-bottom: 0; font-size: clamp(2.5rem, 5vw, 4.5rem); }
 .icon-nodes span:nth-child(2) { top: 27px; right: 0; }
 .icon-nodes span:nth-child(3) { bottom: 0; left: 27px; }
 .icon-nodes span:nth-child(4) { top: 27px; left: 0; }
-.icon-nodes::before, .icon-nodes::after { position: absolute; width: 42px; height: 1px; background: currentColor; content: ""; }
-.icon-nodes::before { transform: rotate(45deg); }
-.icon-nodes::after { transform: rotate(-45deg); }
+.icon-nodes::before, .icon-nodes::after { position: absolute; left: 50%; top: 50%; width: 42px; height: 1px; background: currentColor; content: ""; }
+.icon-nodes::before { transform: translate(-50%, -50%) rotate(45deg); }
+.icon-nodes::after { transform: translate(-50%, -50%) rotate(-45deg); }
 .work-card h3 { margin-bottom: .8rem; font-size: 1.5rem; letter-spacing: -.02em; }
 .work-card p { max-width: 28rem; color: var(--muted); font-size: .9rem; }
 .work-card .card-boundary { padding-left: .8rem; border-left: 2px solid var(--accent); font-size: .79rem; }
